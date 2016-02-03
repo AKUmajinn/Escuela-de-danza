@@ -1,0 +1,155 @@
+/* Inserta tu codigo aqui */
+/*nav*/
+.inicio{
+    text-decoration: none;
+    text-align: center;
+    color: #192951;
+}
+.titulo{
+	padding: 3% 0 1%;
+}
+
+.menu{
+	margin: 0 auto;
+	list-style: none
+}
+.menu li{
+	display: inline-block;
+	margin: 0 1%;
+}
+a:hover{
+	border-bottom: 3px solid #030D1C; 
+}
+
+li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20%;
+	margin: auto;
+}
+
+/*contactanos*/
+
+ .contactanos{
+	background: url("../img/shoes_1.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+ }
+.encabezadoc{
+	font-size: 30px;
+    padding: 8% 0 3%;
+}
+.contact_form{
+    padding-bottom: 8%;
+}
+ #name, #message, #email{
+    padding: 2% 9%;
+    margin: 1.5% 0;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid #DAD7D7;
+ }
+ #name{
+	background: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2%;
+}
+#email{
+	background: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2%;
+}
+#message{
+	background: url("../img/pencil.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2% 7%;
+}
+ #submit_button{
+    margin: 1% 0 0 -2%;
+    padding: 3%;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: #192951;
+    color: white;
+    border-radius: 5px; 
+ }
+/*blog*/
+.blog{
+	padding: 5% 0;
+}
+.titulo{
+	 padding-bottom: 3%;
+
+}
+.blogcontainer{
+    background: #BBBBBB;
+    position: relative;
+    margin: 3% 0;
+}
+.imagenblog1, .imagenblog2, .imagenblog3{
+    padding: 13%;
+    position: relative;
+    left: -1.5%;
+}
+
+.imagenblog1{
+	background: url("../img/blog1.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imagenblog2{
+	background: url("../img/profesor_5.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.imagenblog3{
+	background: url("../img/instructor_1.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.blogcontainer h3, p{
+	padding-left: 35%;
+    padding-right: 3%;
+}
+.blogcontainer h3{
+	padding-top: 5%;
+    padding-bottom: 1%;
+}
+.blogcontainer p{
+	    padding-bottom: 1%;
+}
+button{
+	float: left;
+    margin: 1% 1% 1% 2%;
+    padding: 1% 8%;
+    border-radius: 1px;
+    border: none;
+    background: #192951;
+    border-radius: 4px;
+}
+
+button a{
+	text-decoration: none;
+}
+ /*footer*/
+ footer{
+ 	background: #192951;
+ }
+ .copyright{
+ 	display: inline-block;
+    padding: 2% 3%;
+ }
+

@@ -1,0 +1,166 @@
+
+/*nav*/
+.inicio{
+    text-decoration: none;
+    text-align: center;
+    color: #192951;
+}
+.titulo{
+	padding: 3% 0 1%;
+}
+
+.menu{
+	margin: 0 auto;
+	list-style: none
+}
+.menu li{
+	display: inline-block;
+	margin: 0 1%;
+}
+a:hover{
+	border-bottom: 3px solid #030D1C; 
+}
+
+li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20%;
+	margin: auto;
+}
+/*clases*/
+.nuestras_clases{
+	    padding: 5%;
+}
+.titulo{
+	padding: 0 0 2%;
+}
+
+.ballet, .moderm, .jazz{
+	background: black;
+    padding: 25% 0%;
+    opacity: 0,4;
+    opacity: opacity: 0.5;
+    opacity: 0.4;
+    width: 90%;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.clase1{
+	background: url("../img/dance_12.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.clase2{
+	background: url("../img/breakdance.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.clase3{
+	background: url("../img/lirical-jazz.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.clase4{
+	background: url("../img/arabe.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.clase5{
+	background: url("../img/little.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.clase6{
+	background: url("../img/yoga.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.clase1, .clase2, .clase3, .clase4, .clase5, .clase6{
+    position: relative;
+    padding: 12% 0;
+    width: 31%;
+    margin: 1%;
+}
+.textclass{
+    position: absolute;
+    z-index: 6;
+    /* color: blue; */
+    top: 23%;
+    left: 1%;
+    padding: 0 5%;
+}
+.textclass h4{
+	margin-bottom: 8%
+}
+ /*contactanos*/
+
+ .contactanos{
+	background: url("../img/shoes_1.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+ }
+.encabezadoc{
+	font-size: 30px;
+    padding: 8% 0 3%;
+}
+.contact_form{
+    padding-bottom: 8%;
+}
+ #name, #message, #email{
+    padding: 2% 9%;
+    margin: 1.5% 0;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid #DAD7D7;
+ }
+ #name{
+	background: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2%;
+}
+#email{
+	background: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2%;
+}
+#message{
+	background: url("../img/pencil.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2% 7%;
+}
+ #submit_button{
+    margin: 1% 0 0 -2%;
+    padding: 3%;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: #192951;
+    color: white;
+    border-radius: 5px; 
+ }
+
+ /*footer*/
+ footer{
+ 	background: #192951;
+ }
+ .copyright{
+ 	display: inline-block;
+    padding: 2% 3%;
+ }
+

@@ -1,0 +1,223 @@
+/* Inserta tu codigo aqui */
+/*nav*/
+
+.inicio{
+    text-decoration: none;
+    text-align: center;
+    color: #192951;
+}
+.titulo{
+	padding: 3% 0 1%;
+}
+
+.menu{
+	margin: 0 auto;
+	list-style: none
+}
+.menu li{
+	display: inline-block;
+	margin: 0 1%;
+}
+a:hover{
+	border-bottom: 3px solid #030D1C; 
+}
+
+li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20%;
+	margin: auto;
+}
+/*header*/
+header{
+	background: url("../img/dance_1.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.studio{
+	    padding: 3% 0 12%;
+}
+.studio h1{
+	font-size: 55px;
+	padding: 10% 0;
+}
+.studio button{
+	background: #030D1C;
+    color: white;
+    border: none;
+    padding: 6% 15%;
+    margin: 10% 0;
+    border-radius: 5px;
+}
+/*seccion 2*/
+.ofertacontainer{
+	margin-left: auto;
+	margin-right: auto;	
+	display: inline-block;
+}
+.ofertaclases{
+	background: url("../img/textura_2.jpg");
+}
+.clasesp{
+	margin: 0 15%;
+	padding: 5% 0 0;
+}
+.decoracion1{
+	height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.ofertaboton{
+    background: #192951;
+    color: white;
+    border: none;
+    padding: 2% 12%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 8%;
+}
+
+/*seccion instructores*/
+
+.instructores{
+	background: url("../img/textura_2.png");
+}
+.instructoresback{
+	border: 2px solid #192951;
+	position: relative;
+	width: 101%;
+}
+
+.muestra1, .muestra2{
+    padding: 12% 0;
+    /* float: left; */
+    display: inline-block;
+    margin: auto;
+
+}
+.muestra1{
+	background: url("../img/instructor_4.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.muestra2{
+	background: url("../img/profesor_9.jpg");	
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instructoresback button{
+    background: #192951;
+    color: white;
+    border: none;
+    padding: 1.6% 12%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 33%;
+    bottom: 0
+}
+
+/*frase inspiradora*/
+
+.cita{
+	background: url("../img/textura_2.jpg");	
+}
+.lineacita{
+	padding: 10% 0;
+    font-size: 40px;
+}
+
+/*ubicacion*/
+.contenidoub{
+	
+}
+.ubicacion{
+	background: #192951;
+}
+.textub{
+	display: inline-block;
+    padding: 8% 0;
+}
+
+.textub p{
+	    padding: 0% 0 10%;
+}
+.textub h2{
+	    padding-bottom: 2%;
+}
+.mapa{
+	padding-top: 8%;
+    padding-bottom: 8%;
+}
+ /*contactanos*/
+
+ .contactanos{
+	background: url("../img/shoes_1.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+ }
+.encabezadoc{
+	font-size: 30px;
+    padding: 8% 0 3%;
+}
+.contact_form{
+    padding-bottom: 8%;
+}
+ #name, #message, #email{
+    padding: 2% 9%;
+    margin: 1.5% 0;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid #DAD7D7;
+ }
+ #name{
+	background: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2%;
+}
+#email{
+	background: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2%;
+}
+#message{
+	background: url("../img/pencil.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2% 7%;
+}
+ #submit_button{
+    margin: 1% 0 0 -2%;
+    padding: 3%;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: #192951;
+    color: white;
+    border-radius: 5px; 
+ }
+
+ /*footer*/
+ footer{
+ 	background: #192951;
+ }
+ .copyright{
+ 	display: inline-block;
+    padding: 2% 3%;
+ }
+
+ -------------------

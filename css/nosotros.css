@@ -1,0 +1,213 @@
+/* Inserta tu codigo aqui */
+.inicio{
+    text-decoration: none;
+    text-align: center;
+    color: #192951;
+}
+.titulo{
+	padding: 3% 0 1%;
+}
+
+.menu{
+	margin: 0 auto;
+	list-style: none
+}
+.menu li{
+	display: inline-block;
+	margin: 0 1%;
+}
+a:hover{
+	border-bottom: 3px solid #030D1C; 
+}
+
+li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20%;
+	margin: auto;
+}
+/*header*/
+header{
+	background: url("../img/dance_7.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6% 0;
+
+}
+.general{
+	position: relative;
+}
+.sobrenosotros{
+    background: black;
+    opacity: 0.4;
+    padding: 12%;
+	position: relative;
+    left: 20%;
+}
+
+.textonos{
+	position: absolute;
+    left: 25%;
+}
+
+.textonos h2{
+	    padding: 15% 0 5%;
+}
+/*seccion 2*/
+
+.containerpilar{
+    margin: 0 11%;
+    padding: 12% 0;
+}
+.pilares{
+	background: url("../img/cubes.png");
+}
+
+.pilar{
+	color: rgb(83, 88, 95);
+}
+
+/*seccion instructores*/
+.instructores{
+	padding: 7% 0 4%;
+}
+.fichainst{
+	padding: 5% 1%;
+}
+.instructor1, .instructor2, .instructor3, .instructor4, .instructor5, .instructor6, .instructor7, .instructor8{
+	padding:36%;
+}
+	
+.instructor1{
+	background: url("../img/profesor_4.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.instructor2{
+	background: url("../img/profesor_14.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.instructor3{
+	background: url("../img/profesor_1.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.instructor4{
+	background: url("../img/profesor_10.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.instructor5{
+	background: url("../img/profesor_11.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.instructor6{
+	background: url("../img/profesor_12.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.instructor7{
+	background: url("../img/profesor_9.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.instructor8{
+	background: url("../img/profesor_15.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+/*frase inspiradora*/
+
+.fraseinspiradora{
+	background: url("../img/cubes.png");
+}
+.finsp{
+	padding: 10% 0;
+    font-size: 45px;
+}
+ /*contactanos*/
+
+ .contactanos{
+	background: url("../img/shoes_1.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+ }
+.encabezadoc{
+	font-size: 30px;
+    padding: 8% 0 3%;
+}
+.contact_form{
+    padding-bottom: 8%;
+}
+ #name, #message, #email{
+    padding: 2% 9%;
+    margin: 1.5% 0;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid #DAD7D7;
+ }
+ #name{
+	background: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2%;
+}
+#email{
+	background: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2%;
+}
+#message{
+	background: url("../img/pencil.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center left;
+    background-position: 2% 7%;
+}
+ #submit_button{
+    margin: 1% 0 0 -2%;
+    padding: 3%;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: #192951;
+    color: white;
+    border-radius: 5px; 
+ }
+
+ /*footer*/
+ footer{
+ 	background: #192951;
+ }
+ .copyright{
+ 	display: inline-block;
+    padding: 2% 3%;
+ }
+
